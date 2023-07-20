@@ -9,7 +9,7 @@ The project consits of one main part - the liver disease meta analysis - and one
 ## QC difference testing
 Fabian noticed that some of the datasets were of bad quality and where thus subjected to heavy filtering when performing quality control as part of the profiling. This resulted in lost reads. We ware asking whether this affected the outcome of subsequent analyses and investigated this shortly. 
 
-The Script **'QC_difference_test.R'** can be found in `g/scb/zeller/reibensp/LD_meta_analysis/scripts/QC_difference_test.R` and the **scripts folder** in this repository. 
+The Script **'QC_difference_test.R'** can be found in `g/scb/zeller/reibensp/LD_meta_analysis/scripts/QC_difference_test.R` and the **qc_diffence_test** commit in this repository. 
 
 Files can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data/16S/Lin_2023/` with the subfolders `noQC_tax_level` and `QC_tax_level`. and the respective **folders** in this repo.
 
@@ -17,4 +17,8 @@ Files can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data/16S/Lin_2023/
 ### dataset colleciton and literature search 
 dataset collection that resulted from the literature search can be found in [Microbiome-disease-association spreadsheet](https://docs.google.com/spreadsheets/d/1lqbHJrT2GXUAKYTmvlJhKC2kbS035wCi6HPpivI93AU/edit) 
 In the _lines 106 - 140_, Green BioProject IDs represent data that was downloaded and profiled. 
-Green metatadata columns represent files where metadata that allows the link to the case or control group of the study cohort is available (usually SRA Accession metadata, if not other specified) pubmed search script  and results can be found in folder **literature_search**. 
+Green metatadata columns represent files where metadata that allows the link to the case or control group of the study cohort is available (usually SRA Accession metadata, if not other specified) pubmed search script  and results can be found under commit **literature_search**. 
+
+### raw data after profiling 
+ALl data can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data` There are subfolders here:
+`../16S` contains  
