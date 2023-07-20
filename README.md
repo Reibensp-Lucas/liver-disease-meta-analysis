@@ -14,8 +14,9 @@ The Script [**'QC_difference_test.R'**](/QC_difference_test.R) can be found in `
 Data can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data/16S/Lin_2023/` with the subfolders `noQC_tax_level/` and `QC_tax_level/`. 
 
 ## Liver disease meta analysis ###### 
-### dataset colleciton and literature search 
+### dataset collection and literature search 
 dataset collection that resulted from the literature search can be found in [Microbiome-disease-association spreadsheet](https://docs.google.com/spreadsheets/d/1lqbHJrT2GXUAKYTmvlJhKC2kbS035wCi6HPpivI93AU/edit) 
+
 In the _lines 106 - 140_, Green BioProject IDs represent data that was downloaded and profiled. 
 Green metatadata columns represent files where metadata that allows the link to the case or control group of the study cohort is available (usually SRA Accession metadata, if not other specified) [pubmed search script](/do_pubmed_search.py)  and [results](/Python_Pubmed_search.xlsx) can be found under commit **literature_search**. 
 
