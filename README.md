@@ -17,7 +17,7 @@ Data can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data/16S/Lin_2023/`
 ### dataset colleciton and literature search 
 dataset collection that resulted from the literature search can be found in [Microbiome-disease-association spreadsheet](https://docs.google.com/spreadsheets/d/1lqbHJrT2GXUAKYTmvlJhKC2kbS035wCi6HPpivI93AU/edit) 
 In the _lines 106 - 140_, Green BioProject IDs represent data that was downloaded and profiled. 
-Green metatadata columns represent files where metadata that allows the link to the case or control group of the study cohort is available (usually SRA Accession metadata, if not other specified) [pubmed search script](/do_pubmed_serch.py)  and [results](/Python_Pubmed_search.xlsx) can be found under commit **literature_search**. 
+Green metatadata columns represent files where metadata that allows the link to the case or control group of the study cohort is available (usually SRA Accession metadata, if not other specified) [pubmed search script](/do_pubmed_search.py)  and [results](/Python_Pubmed_search.xlsx) can be found under commit **literature_search**. 
 
 ### raw data after profiling 
 ALl data can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data/` There are subfolders here:
@@ -27,7 +27,7 @@ In the same way `../WGS/` contains the tax level profiles in the dataset_name_fo
 
 
 ### cleaning metadata 
-original metadata can be found in`g/scb/zeller/reibensp/LD_meta_analysis/data/metadata/` as .txt or .tsv files. Data cleaning was done with R - [**cleaning_metadata.R**](/cleaning_metadata.R) can be accessed via `g/scb/zeller/reibensp/LD_meta_analysis/scripts/cleaning_metadata.R` or found in this repo. 
+original metadata can be found in`g/scb/zeller/reibensp/LD_meta_analysis/data/metadata/` as .txt or .tsv files. Data cleaning was done with R - [**cleaning_metadata.R**](/cleaning metadata.R) can be accessed via `g/scb/zeller/reibensp/LD_meta_analysis/scripts/cleaning_metadata.R` or found in this repo. 
 Resulting tidy versions of the metadata were saved to `g/scb/zeller/reibensp/LD_meta_analysis/data/metadata/tidy_data/` as .tsv files.
 
 ### meta analysis, batch correction, and re-analysis
