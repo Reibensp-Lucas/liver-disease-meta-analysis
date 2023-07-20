@@ -2,14 +2,14 @@
 Scripts and other files that were used during my internship at Zeller team
 
 This is a description of the project and where to find the files and scripts that I worked with during my internship at Zeller group.
-wherever possible, I also added the directory path for `ssh username@nile.emble.de server` , where most of the files can be found in.
+wherever possible, I also added the directory path for `ssh username@nile.embl.de` server , where most of the files can be found in.
 
 The project consits of one main part - the liver disease meta analysis - and one minor part - QC impact on microbial profiles in low quality samples . The latter one was a small exploratio, together with Fabian, that came up when profiling the 16S data for the meta anlysis. In short: 
 
 ## QC difference testing
 Fabian noticed that some of the datasets were of bad quality and where thus subjected to heavy filtering when performing quality control as part of the profiling. This resulted in lost reads. We ware asking whether this affected the outcome of subsequent analyses and investigated this shortly. 
 
-The Script **'QC_difference_test.R'** can be found in `g/scb/zeller/reibensp/LD_meta_analysis/scripts/QC_difference_test.R` and the **qc_diffence_test** commit in this repository. 
+The Script [**'QC_difference_test.R'**](/QC_difference_test.R) can be found in `g/scb/zeller/reibensp/LD_meta_analysis/scripts/QC_difference_test.R` and this repository. 
 
 Data can be found in `g/scb/zeller/reibensp/LD_meta_analysis/data/16S/Lin_2023/` with the subfolders `noQC_tax_level/` and `QC_tax_level/`. 
 
