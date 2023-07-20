@@ -34,7 +34,7 @@ Resulting tidy versions of the metadata were saved to `g/scb/zeller/reibensp/LD_
 
 >  more detailed description coming soon, for now, only the description of where to find the scripts and data
 
-scripts for [meta analysis}(/analysis.R) before batch correction, the [batch correction](/correct_batches.r) itself and the [re-analysis](/batch_corrected_analysis.R) after batch correction (fairly similar to before with some minor changes (see comments in script) where relative Abundance did not have to be re-calculated, etc.) can be found in `/g/scb/zeller/reibensp/LD_meta_analysis/scripts` and in this repo.
+scripts for [meta analysis](/analysis.R) before batch correction, the [batch correction](/correct_batches.r) itself and the [re-analysis](/batch_corrected_analysis.R) after batch correction (fairly similar to before with some minor changes (see comments in script) where relative Abundance did not have to be re-calculated, etc.) can be found in `/g/scb/zeller/reibensp/LD_meta_analysis/scripts` and in this repo.
 As resulting graphs will have to be regenerated anyway I did not upload the saved graphs to the server.  
 All batch-corrected profiles of the datasets were exported to `/g/scb/zeller/reibensp/LD_meta_analysis/data/batch_corrected_counts` and can be downloaded from there.
 
