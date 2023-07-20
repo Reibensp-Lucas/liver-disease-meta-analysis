@@ -28,7 +28,7 @@ In the same way `../WGS/` contains the tax level profiles in the dataset_name_fo
 
 
 ### cleaning metadata 
-original metadata can be found in`g/scb/zeller/reibensp/LD_meta_analysis/data/metadata/` as .txt or .tsv files. Data cleaning was done with R - [**cleaning_metadata.R**](/cleaning metadata.R) can be accessed via `g/scb/zeller/reibensp/LD_meta_analysis/scripts/cleaning_metadata.R` or found in this repo. 
+original metadata can be found in`g/scb/zeller/reibensp/LD_meta_analysis/data/metadata/` as .txt or .tsv files. Data cleaning was done with R - [**cleaning_metadata.R**](/cleanin metadata.R) can be accessed via `g/scb/zeller/reibensp/LD_meta_analysis/scripts/cleaning_metadata.R` or found in this repo. 
 Resulting tidy versions of the metadata were saved to `g/scb/zeller/reibensp/LD_meta_analysis/data/metadata/tidy_data/` as .tsv files.
 
 ### meta analysis, batch correction, and re-analysis
